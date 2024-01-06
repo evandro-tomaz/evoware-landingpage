@@ -18,7 +18,7 @@ function SocialLink({ icon: Icon, ...props }: any) {
 
 const AboutSection = () => {
   return (
-    <section id="about" className="bg-transparent">
+    <section id="about" className="bg-transparent pt-20">
       <div className="container flex flex-col md:max-w-[64rem] md:py-12 lg:py-24">
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-y-12 lg:grid-rows-[auto-1fr]">
           <div className="lg:pl-20 flex justify-center">
@@ -45,18 +45,25 @@ const AboutSection = () => {
               consequuntur ex expedita ipsam.
             </p>
             <div className="my-6 flex justify-center md:justify-start gap-6">
-              <SocialLink href="https://instagram.com" icon={InstagramIcon} />
               <SocialLink
-                href="www.linkedin.com/in/evandro-rodrigo-tomaz-da-silva-a138b3158"
+                href="https://instagram.com"
+                icon={InstagramIcon}
+                target="_blank"
+              />
+              <SocialLink
+                href="https://www.linkedin.com/in/evandro-rodrigo-tomaz-da-silva-a138b3158"
                 icon={LinkedinIcon}
+                target="_blank"
               />
               <SocialLink
                 href="https://github.com/evandro-tomaz"
                 icon={GithubIcon}
+                target="_blank"
               />
               <SocialLink
                 href="https://youtube.com/evandro-tomaz"
                 icon={YoutubeIcon}
+                target="_blank"
               />
             </div>
           </div>

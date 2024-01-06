@@ -17,8 +17,7 @@ const FeaturesSection = () => {
           Tech Stack
         </h2>
         <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
-          Venha desenvolver conosco seus projetos com a melhor experiência do
-          usuário usando o que há de melhor no mercado atualmente
+          Criamos experiências únicas utilizando o que há de mais moderno, garantindo fluidez e disponibilidade. Conheça algumas das tecnologias
         </p>
       </div>
 

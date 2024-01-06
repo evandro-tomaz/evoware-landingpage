@@ -1,11 +1,8 @@
 import React from "react";
-import { ModeToggler } from "./ModeToggler";
-import { cn } from "@/lib/utils";
-import { buttonVariants } from "@/components/ui/button";
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="space-y-6 py-8 md:py-12 lg:py-32 relative">
+    <section id="hero" className="space-y-6 py-16 md:py-12 lg:py-32 relative border">
       <svg
         viewBox="0 0 1024 1024"
         className="absolute left-1/3 top-full md:left-1/2 md:top-1/2 -z-10 h-[16rem] w-[16rem] md:h-[54rem] md:w-[54rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
@@ -27,26 +24,16 @@ const HeroSection = () => {
       </svg>
       <div className="container flex max-w-[64rem] flex-col items-center text-center gap-4">
         <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl">
-          <span className="text-primary">Evoware Technology</span>:
-          <br />
-          Presença Digital com Inovação e Elegância!
+          Presença Digital <br /> com Inovação <br /> e Elegância!
         </h1>
         <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
-          Não apenas desenvolvemos soluções tecnológicas, criamos experiências
-          digitais significativas. Se você busca um site elegante, uma landing
-          page envolvente ou consultoria personalizada para levar sua presença
-          online a novos patamares, estamos aqui para superar suas expectativas.
+          Soluções tecnológicas e experiência digital simplificada. <br />
+          Consultoria personalizada para elevar sua presença digital.
         </p>
-        <div className="space-x-4">
+        <div className="space-x-4 mt-5">
           <a
             href="#about"
             className="bg-primary py-2 px-4 text-md text-white rounded shadow-lg font-bold dark:text-black"
-          >
-            Quero fazer parte
-          </a>
-          <a
-            href="#feature"
-            className={cn(buttonVariants({ variant: "outline", size: "lg" }))}
           >
             Saiba mais
           </a>
