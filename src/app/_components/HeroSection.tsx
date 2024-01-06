@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section id="hero" className="space-y-6 py-16 md:py-12 lg:py-32 relative border">
+    <section id="hero" className="space-y-6 py-16 md:py-12 lg:py-32 relative">
       <svg
         viewBox="0 0 1024 1024"
         className="absolute left-1/3 top-full md:left-1/2 md:top-1/2 -z-10 h-[16rem] w-[16rem] md:h-[54rem] md:w-[54rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
