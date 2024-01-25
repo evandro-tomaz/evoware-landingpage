@@ -39,10 +39,12 @@ const AboutSection = () => {
               Evoware Technology
             </h1>
             <p className="mt-6 text-base text-muted-foreground">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex maxime
-              aliquam, et distinctio maiores voluptas accusantium in facere
-              eveniet. Molestias ut, delectus enim nesciunt obcaecati eius
-              consequuntur ex expedita ipsam.
+              Na Evoware, somos mais do que uma agência de desenvolvimento
+              digital. Somos arquitetos de experiências digitais que transcendem
+              o comum. Seja uma presença impactante na web, uma estratégia de
+              marketing digital imparável ou uma posição de destaque nos motores
+              de busca - estamos aqui para elevar sua marca a novos patamares
+              digitais.
             </p>
             <div className="my-6 flex justify-center md:justify-start gap-6">
               <SocialLink
