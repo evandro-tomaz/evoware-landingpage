@@ -24,7 +24,7 @@ const HeroSection = () => {
       </svg>
       <div className="container flex max-w-[64rem] flex-col items-center text-center gap-4">
         <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl">
-          Presença Digital <br /> com Inovação <br /> e Elegância!
+        Transformando Visões em Experiências Digitais Extraordinárias
         </h1>
         <p className="max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">
           Soluções tecnológicas e experiência digital simplificada. <br />
